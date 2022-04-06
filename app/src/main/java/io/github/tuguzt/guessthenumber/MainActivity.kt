@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.os.bundleOf
-import com.google.android.material.snackbar.Snackbar
 import io.github.tuguzt.guessthenumber.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -15,9 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val showSnackbar = { message: CharSequence ->
-            Snackbar.make(binding.root, message, Snackbar.LENGTH_SHORT).show()
-        }
+        val showSnackbar = { message: CharSequence -> showSnackbar(binding.root, message) }
         binding.readyToGuess.setOnClickListener {
             val minimum = binding.minimumValue.text.toString().toIntOrNull()
             val maximum = binding.maximumValue.text.toString().toIntOrNull()

@@ -7,4 +7,8 @@
     <string name="max_empty">Maximum value must be set</string>
     <string name="max_too_small">Minimum must be smaller than maximum</string>
     <string name="values_empty">Values must not be empty</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="guess_text_range">Is guessed number in [%1$d, %2$d]?</string>
+    <string name="guess_text_number">%1$d is guessed number?</string>
 </resources>
