@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Guess The Number</string>
+    <string name="ready_to_guess">Ready to guess</string>
+    <string name="minimum_value">Minimum value</string>
+    <string name="maximum_value">Maximum value</string>
+    <string name="min_empty">Minimum value must be set</string>
+    <string name="max_empty">Maximum value must be set</string>
+    <string name="max_too_small">Minimum must be smaller than maximum</string>
+    <string name="values_empty">Values must not be empty</string>
 </resources>
